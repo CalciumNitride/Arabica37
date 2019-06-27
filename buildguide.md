@@ -38,4 +38,18 @@ TRRSケーブル|1|
 配線材|3|Underglow LED用
 OLEDモジュール|2|
 4pinピンヘッダ|2|OLED用
-4pinピンソケット|2|OLED用
+4pinピンソケット|2|OLED用  
+
+
+## 組み立て
+
+PCBはリバーシブルです。どちらを左/右にしてもかまいません  
+基本的に左右の実装は同じですが、Pro microの位置は間違え安いので注意してください
+
+### 1.ダイオードを半田付けする
+
+PCBの裏面にダイオードを半田付けします。
+ダイオードの黒い印がある方(マイナス)がパッドの四角い方に来るように穴に通します。
+※チップ部品を使用する場合は[Corne keyboard](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_jp.md)等を参考にしてください。
+
+### 2.
