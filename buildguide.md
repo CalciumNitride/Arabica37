@@ -51,7 +51,7 @@ PCBはリバーシブルです。どちらを左/右にしてもかまいませ�
 PCBの裏面にダイオードを半田付けします。
 ダイオードの黒い印がある方(マイナス)がパッドの四角い方に来るように穴に通し、半田付けします。
 
-※SMDのダイオードを使用する場合は[Corne keyboard](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_jp.md)等を参考にしてください。
+※SMDのダイオードを使用する場合は[Corneのビルドガイド](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_jp.md#ダイオード)等を参考にしてください。
 
 ### 2.OLEDモジュール用ジャンパ(オプション)
 
@@ -70,3 +70,4 @@ TRRSジャック、タクトスイッチはPCBの表側に実装します。
 ProMicro用ピンヘッダをPCBの表側に半田付けし、その上にProMicroを裏面(平たい方)を上にして半田付けします
 
 ※このとき、ピンヘッダをPCB上の白い枠に合わせて実装します。正しく取り付けられて入ればPCB上の"RAW"とProMicroの"RAW"が同じ位置(左上)になります。
+※コンスルーを使用する場合は[Helixのビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)等を参考にしてください
