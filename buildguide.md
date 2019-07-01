@@ -69,17 +69,21 @@ PCBソケットをPCBの裏側に実装します。
 ![DSC00124](https://user-images.githubusercontent.com/46911478/60408123-8bbb1880-9bf8-11e9-82c0-4eb388d19969.JPG)
 
 
-### 3.タクトスイッチ、TRRSジャックを半田付けする
+### 4.タクトスイッチ、TRRSジャックを半田付けする
 
 TRRSジャック、タクトスイッチはPCBの表側に実装します。
 
-### 4.OLEDモジュール用ピンソケットを半田付けする(オプション)
+### 5.OLEDモジュール用ピンソケットを半田付けする(オプション)
 
 ピンソケットもPCBの表側に半田付けします
 
-### 5. ProMicroを実装する
+### 6. ProMicroを実装する
 
 ProMicro用ピンヘッダをPCBの表側に半田付けし、その上にProMicroを裏面(平たい方)を上にして半田付けします
 
 ※このとき、ピンヘッダをPCB上の白い枠に合わせて実装します。正しく取り付けられて入ればPCB上の"RAW"とProMicroの"RAW"が同じ位置(左上)になります。
 ※コンスルーを使用する場合は[Helixのビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)等を参考にしてください
+
+### 7. プレートにスイッチをはめ込む
+
+スイッチプレートにスイッチをはめ込みます。
