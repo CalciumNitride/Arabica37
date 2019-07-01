@@ -60,7 +60,8 @@ OLEDモジュールを使用する場合はPCBの __表側のみ__ 図のよう�
 ### 3.PCBソケットを半田付けする
 
 PCBソケットをPCBの裏側に実装します。
-![socket_01](imgur.com/xyK1HWC "socket")
+![DSC00120](https://user-images.githubusercontent.com/46911478/60407921-96c17900-9bf7-11e9-984f-4c6032ac8bbf.JPG)
+
 
 ### 3.タクトスイッチ、TRRSジャックを半田付けする
 
