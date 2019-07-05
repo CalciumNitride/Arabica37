@@ -49,9 +49,21 @@ PCBはリバーシブルです。どちらを左/右にしてもかまいませ�
 ### 1.ダイオードを半田付けする
 
 PCBの裏面にダイオードを半田付けします。
-ダイオードの黒い印がある方(マイナス)がパッドの四角い方に来るように穴に通し、半田付けします。
+ダイオードの足を折り曲げ、PCBに差し込みます。このとき、ダイオードの黒い印がある側(マイナス)がPCB上の四角いパッドに来るようにします。
+
+![diode01](https://user-images.githubusercontent.com/46911478/60717401-a2e16980-9f5c-11e9-9c77-8489db1e3366.JPG)
+
+ひっくり返して半田付けします。
+
+![diode02](https://user-images.githubusercontent.com/46911478/60716958-9d375400-9f5b-11e9-93eb-6c2eda3b54cb.JPG)
+
+飛び出している足をニッパーで切ります。
+
+![diode03](https://user-images.githubusercontent.com/46911478/60717536-0b304b00-9f5d-11e9-9482-989f406d5411.JPG)
+
 
 ※SMDのダイオードを使用する場合は[Corneのビルドガイド](https://github.com/foostan/crkbd/blob/master/corne-cherry/doc/buildguide_jp.md#ダイオード)等を参考にしてください。
+
 
 ### 2.OLEDモジュール用ジャンパ(オプション)
 
@@ -63,10 +75,11 @@ PCBソケットをPCBの裏側に実装します。
 ソケットは上がKailh choc用、下がMX互換用です。
 
 まず、パッドにはんだを盛ります。
-![DSC00120](https://user-images.githubusercontent.com/46911478/60407921-96c17900-9bf7-11e9-984f-4c6032ac8bbf.JPG)
+![socket01](https://user-images.githubusercontent.com/46911478/60717706-9c9fbd00-9f5d-11e9-8afa-5c9822ec0c4f.JPG)
 
 次に、ソケットを載せ、側面からこて先をあてがって盛ったはんだを溶かし取り付けます。このとき、ソケットが浮かないようにピンセット等で押さえながら作業する必要があります。
-![DSC00124](https://user-images.githubusercontent.com/46911478/60408123-8bbb1880-9bf8-11e9-82c0-4eb388d19969.JPG)
+
+![socket02](https://user-images.githubusercontent.com/46911478/60717664-6cf0b500-9f5d-11e9-8fcc-471f0a1a1e9c.png)
 
 
 ### 4.タクトスイッチ、TRRSジャックを半田付けする
