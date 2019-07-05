@@ -81,22 +81,31 @@ PCBソケットをPCBの裏側に実装します。
 
 ![socket02](https://user-images.githubusercontent.com/46911478/60717664-6cf0b500-9f5d-11e9-8fcc-471f0a1a1e9c.png)
 
+### 4.OLEDモジュール用ピンソケットを半田付けする(オプション)
 
-### 4.タクトスイッチ、TRRSジャックを半田付けする
+ピンソケットをPCBの表側に半田付けします(OLEDを利用する場合のみ)
+
+![oledsocket](https://user-images.githubusercontent.com/46911478/60717840-fd2efa00-9f5d-11e9-944a-93d6d1d7d006.JPG)
+
+### 5.タクトスイッチ、TRRSジャックを半田付けする
 
 TRRSジャック、タクトスイッチはPCBの表側に実装します。
 
-### 5.OLEDモジュール用ピンソケットを半田付けする(オプション)
 
-ピンソケットもPCBの表側に半田付けします
 
 ### 6. ProMicroを実装する
 
 ProMicro用ピンヘッダをPCBの表側に半田付けし、その上にProMicroを裏面(平たい方)を上にして半田付けします
 
 ※このとき、ピンヘッダをPCB上の白い枠に合わせて実装します。正しく取り付けられて入ればPCB上の"RAW"とProMicroの"RAW"が同じ位置(左上)になります。
-※コンスルーを使用する場合は[Helixのビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)等を参考にしてください
+※コンスルーを使用する場合は[Helixのビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)等を参考にしてください 
 
-### 7. プレートにスイッチをはめ込む
+### 7. スタビライザーをはめ込む
+
+2Uキー用のスタビライザーをPCBにはめ込みます。プレートマウントのスタビライザーを使う場合はプレート側にはめ込みます。
+
+※現行のv1.2基板ではPCBマウントタイプのスタビライザーがスペーサーと干渉します。PCBマウントのスタビライザーを使う場合はスイッチプレートを6箇所で固定してください。
+
+### 8. プレートにスイッチをはめ込む
 
 スイッチプレートにスイッチをはめ込みます。
