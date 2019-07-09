@@ -51,6 +51,8 @@ PCBはリバーシブルです。どちらを左/右にしてもかまいませ�
 PCBの裏面にダイオードを半田付けします。
 ダイオードの足を折り曲げ、PCBに差し込みます。このとき、ダイオードの黒い印がある側(マイナス)がPCB上の四角いパッドに来るようにします。
 
+![2019-07-05 001](https://user-images.githubusercontent.com/46911478/60859507-ea624100-a24d-11e9-8f30-38719db1eba7.JPG)
+
 ![diode01](https://user-images.githubusercontent.com/46911478/60717401-a2e16980-9f5c-11e9-9c77-8489db1e3366.JPG)
 
 ひっくり返して半田付けします。
@@ -96,6 +98,8 @@ PCBソケットをPCBの裏側に実装します。
 
 TRRSジャック、タクトスイッチはPCBの表側に実装します。
 
+![2019-07-05 009](https://user-images.githubusercontent.com/46911478/60858427-3a8ad480-a249-11e9-8414-1f36c6d0b622.JPG)
+
 
 
 ### 6. ProMicroを実装する
@@ -105,12 +109,78 @@ ProMicro用ピンヘッダをPCBの表側に半田付けし、その上にProMic
 ※このとき、ピンヘッダをPCB上の白い枠に合わせて実装します。正しく取り付けられて入ればPCB上の"RAW"とProMicroの"RAW"が同じ位置(左上)になります。
 ※コンスルーを使用する場合は[Helixのビルドガイド](https://github.com/MakotoKurauchi/helix/blob/master/Doc/buildguide_jp.md#pro-micro)等を参考にしてください 
 
-### 7. スタビライザーをはめ込む
+![2019-07-05 010](https://user-images.githubusercontent.com/46911478/60858488-7f167000-a249-11e9-9808-9ffa66967fd9.JPG)
+
+![2019-07-05 011](https://user-images.githubusercontent.com/46911478/60858477-702fbd80-a249-11e9-9b7d-cf5fd167ddc8.JPG)
+
+飛び出した足はニッパーで切り取ります。
+
+### 7. OLEDモジュールを実装する(オプション)
+
+OLEDモジュール用ピンヘッダをピンソケットに差し込みます。さらにその上にOLEDモジュールを載せ、ピンヘッダとOLEDモジュールを半田付けします。
+Promicroカバーとの干渉を防ぐため飛び出した足を切り取る必要があります。
+
+![2019-07-05 012](https://user-images.githubusercontent.com/46911478/60858570-dcaabc80-a249-11e9-989c-d766376f1d68.JPG)
+　　　　　　　　　　　　　　　　　　　　　　　　　
+### 8. Promicroカバー用スペーサーを取り付ける
+
+ProMicro付近の穴にスペーサーを後ろからネジ止めします。
+
+![2019-07-05 016](https://user-images.githubusercontent.com/46911478/60859230-bdf9f500-a24c-11e9-862e-58056a13145d.JPG)
+
+### 9. スタビライザーをはめ込む
 
 2Uキー用のスタビライザーをPCBにはめ込みます。プレートマウントのスタビライザーを使う場合はプレート側にはめ込みます。
 
 ※現行のv1.2基板ではPCBマウントタイプのスタビライザーがスペーサーと干渉します。PCBマウントのスタビライザーを使う場合はスイッチプレートを6箇所で固定してください。
 
-### 8. プレートにスイッチをはめ込む
+![2019-07-05 019](https://user-images.githubusercontent.com/46911478/60858681-56db4100-a24a-11e9-8c31-19725342eac2.JPG)
 
-スイッチプレートにスイッチをはめ込みます。
+### 10. プレートにスイッチをはめ込む
+
+スイッチプレートにスイッチをはめ込みます。はじめに角の2箇所のみをはめます。(スイッチが抜けないようプレートは固めに設計されています。どうしてもスイッチが入らない場合は穴の側面を削ってください)
+
+![2019-07-05 017](https://user-images.githubusercontent.com/46911478/60858696-6b1f3e00-a24a-11e9-994c-bcfaee09fde9.JPG)
+
+### 11. プレートとPCBを合わせる
+
+スイッチの足がPCBソケットにささるようにスイッチプレートとPCBを合わせます。
+
+![2019-07-05 020](https://user-images.githubusercontent.com/46911478/60858845-01ebfa80-a24b-11e9-8ffe-472ec20d768c.JPG)
+
+### 12. スイッチをはめ込む
+
+残りのスイッチをはめ込みます。
+
+![2019-07-05 022](https://user-images.githubusercontent.com/46911478/60859300-0b766200-a24d-11e9-9ec0-c702a455ebfd.JPG)
+
+このとき、スイッチの足が曲がっているとソケットに刺さらず、折れてしまうので注意してください。
+
+![2019-07-05 021](https://user-images.githubusercontent.com/46911478/60859399-77f16100-a24d-11e9-8d02-7840a16b263f.JPG)
+
+
+### 13. Promicroカバーを取り付ける
+
+Promicroカバーを取り付けます。Promicroカバー用のマイナスネジを使います。
+
+![2019-07-05 023](https://user-images.githubusercontent.com/46911478/60858996-aff7a480-a24b-11e9-8497-8d6201d826ba.JPG)
+
+### 14. ボトムプレートとスイッチプレートを合わせる
+
+ボトムプレートにスペーサーを取り付けます。
+
+![2019-07-09 001](https://user-images.githubusercontent.com/46911478/60859700-9efc6280-a24e-11e9-9fc6-7fbf43d4cb73.JPG)
+
+スイッチプレートをボトムプレートに乗せてネジ止めします。
+
+![2019-07-05 024](https://user-images.githubusercontent.com/46911478/60859805-d965ff80-a24e-11e9-8fe4-152fed529ca4.JPG)
+
+### 15. キーキャップを取り付ける
+
+キーキャップをはめます。
+
+![2019-07-09 002](https://user-images.githubusercontent.com/46911478/60860080-e3d4c900-a24f-11e9-9075-a6d6599cb3e6.JPG)
+
+お好みで[台座](https://github.com/CalciumNitride/Arabica37/tree/master/pedestal)やゴム足などをつけてチルト・安定化してください。
+
+![2019-07-09 004](https://user-images.githubusercontent.com/46911478/60860274-c18f7b00-a250-11e9-8a84-7993f3347c29.JPG)
