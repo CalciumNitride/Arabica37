@@ -69,6 +69,9 @@ PCBの裏面にダイオードを半田付けします。
 
 OLEDモジュールを使用する場合はPCBの __表側のみ__ 図のようにジャンパします
 
+![2019-07-06 03](https://user-images.githubusercontent.com/46911478/60858177-41651780-a248-11e9-9bd5-d6d5af544b6b.jpg)
+
+
 ### 3.PCBソケットを半田付けする
 
 PCBソケットをPCBの裏側に実装します。
@@ -85,7 +88,9 @@ PCBソケットをPCBの裏側に実装します。
 
 ピンソケットをPCBの表側に半田付けします(OLEDを利用する場合のみ)
 
-![oledsocket](https://user-images.githubusercontent.com/46911478/60717840-fd2efa00-9f5d-11e9-944a-93d6d1d7d006.JPG)
+![2019-07-05 007](https://user-images.githubusercontent.com/46911478/60858215-68bbe480-a248-11e9-8296-a62e91c078e6.JPG)
+
+
 
 ### 5.タクトスイッチ、TRRSジャックを半田付けする
 
