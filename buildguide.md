@@ -184,3 +184,28 @@ Promicroカバーを取り付けます。Promicroカバー用のマイナスネ�
 お好みで[台座](https://github.com/CalciumNitride/Arabica37/tree/master/pedestal)やゴム足などをつけてチルト・安定化してください。
 
 ![2019-07-09 004](https://user-images.githubusercontent.com/46911478/60860274-c18f7b00-a250-11e9-8a84-7993f3347c29.JPG)
+
+
+## ファームウェア
+
+[こちら](https://docs.qmk.fm/#/newbs_getting_started)を参考にしてファームウェアを書き込むための環境を用意します。
+
+QMK Firmwareのフォルダを開き、
+
+```
+make arabica37:default:avrdude
+```
+
+でビルド、書き込みを行います。
+
+```
+Detecting USB port, reset your controller now...
+```
+
+という表示が出たらキーボードのリセットボタンを押します。ProMicroの種類によっては二度押しもしくは長押しする必要があるものもあります。
+
+```
+avrdude.exe done.  Thank you.
+```
+
+と出たら書き込み完了です。同様にしてもう片手側にも書き込みます
